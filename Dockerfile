@@ -1,5 +1,5 @@
 # Webserver running nginx
-FROM nginx:perl
+FROM nginx:1.25-perl
 
 # Import groupid environment variable
 ENV GROUPID=${GROUPID}
